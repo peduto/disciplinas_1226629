@@ -36,7 +36,7 @@ class DisciplinaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+                return view('disciplinas.show',compact('disciplina'));
     }
 
     /**
@@ -47,7 +47,7 @@ class DisciplinaController extends Controller
      */
     public function show(Disciplina $disciplina)
     {
-        //
+        return view('disciplinas.show',compact('disciplina'));
     }
 
     /**
